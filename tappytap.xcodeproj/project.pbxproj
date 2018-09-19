@@ -15,6 +15,7 @@
 		EA078DDC212DE35C00C203C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA078DDB212DE35C00C203C6 /* Assets.xcassets */; };
 		EA078DDF212DE35C00C203C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA078DDD212DE35C00C203C6 /* LaunchScreen.storyboard */; };
 		EA078DEA212DE35C00C203C6 /* tappytapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA078DE9212DE35C00C203C6 /* tappytapTests.swift */; };
+		EAAB2B8D214743B0008FE23C /* BeatPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB2B8C214743B0008FE23C /* BeatPaths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EA078DE5212DE35C00C203C6 /* tappytapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tappytapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA078DE9212DE35C00C203C6 /* tappytapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tappytapTests.swift; sourceTree = "<group>"; };
 		EA078DEB212DE35C00C203C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAB2B8C214743B0008FE23C /* BeatPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatPaths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				EA078DD4212DE35B00C203C6 /* BeatTestScene.swift */,
+				EAAB2B8C214743B0008FE23C /* BeatPaths.swift */,
 			);
 			path = TestScene;
 			sourceTree = "<group>";
@@ -160,9 +163,11 @@
 				TargetAttributes = {
 					EA078DCA212DE35B00C203C6 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					EA078DE4212DE35C00C203C6 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = EA078DCA212DE35B00C203C6;
 					};
 				};
@@ -213,6 +218,7 @@
 			files = (
 				EA078DD5212DE35B00C203C6 /* BeatTestScene.swift in Sources */,
 				EA078DD7212DE35B00C203C6 /* GameViewController.swift in Sources */,
+				EAAB2B8D214743B0008FE23C /* BeatPaths.swift in Sources */,
 				EA0352BC213F895A003DF3E2 /* CoreGame.swift in Sources */,
 				EA078DCF212DE35B00C203C6 /* AppDelegate.swift in Sources */,
 			);
@@ -384,7 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AD.tappytap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -403,7 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AD.tappytap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
@@ -414,6 +420,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXCZ89PCD;
 				INFOPLIST_FILE = tappytapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,7 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AD.tappytapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tappytap.app/tappytap";
 			};
@@ -434,6 +441,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXCZ89PCD;
 				INFOPLIST_FILE = tappytapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,7 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AD.tappytapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tappytap.app/tappytap";
 			};
